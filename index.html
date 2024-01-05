@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="thumbnail" content="https://page.ledwinezkiel.repl.co/img/ledwin.webp">
+    <title>Portfolio | Ledwin Ezkiel Wotulo</title>
+    <meta name="description" content="Selamat datang! Ini adalah website Portfolio saya. Terima kasih sudah berkunjung">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ledwin Ezkiel Wotulo</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#projects">My Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <div class="dropdown">
+              <button class="btn nav-link dropdown-toggle" id="bd-theme" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
+                <span class="d-none" id="bd-theme-text">Toggle theme</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <button class="dropdown-item d-flex align-items-center" id="tema-terang" type="button" data-bs-theme-value="light">
+                    <i class="bi bi-sun-fill me-2" data-theme-icon="bi-sun-fill"></i>
+                    Light
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item d-flex align-items-center" id="tema-gelap" type="button" data-bs-theme-value="dark">
+                    <i class="bi bi-moon-stars-fill me-2" data-theme-icon="bi-moon-stars-fill"></i>
+                    Dark
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-7 d-flex">
+            <div class="my-auto">
+              <h2>Welcome</h2>
+              <h1 class="display-1 fw-bold">I'm Ledwin Ezkiel Wotulo</h1>
+              <p class="text-bg display-6 reveal-left">Student | Junior Web Frontend Developer</p>
+            </div>
+          </div>
+          <div class="col-lg-5 p-3 reveal-bottom">
+            <img src="img/ledwin.webp" class="img img-fluid" alt="Ledwin">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="mt-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-12">
+            <h1 class="text-center">About Me</h1>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 text-center justify-content-center g-4">
+          <div class="col reveal-bottom">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit eos id, vel quidem dignissimos distinctio nihil qui! Aliquam dolore maxime, eveniet nam eos commodi voluptate veniam, fugit, ut numquam non.
+          </div>
+          <div class="col reveal-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dicta expedita explicabo laudantium, sed ad ut porro repudiandae ullam velit nesciunt ratione, obcaecati corrupti? Alias voluptate quasi mollitia architecto id?
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="dark-about">
+        <path fill="#ffffff" fill-opacity="1" d="M0,64L30,96C60,128,120,192,180,234.7C240,277,300,299,360,261.3C420,224,480,128,540,96C600,64,660,96,720,112C780,128,840,128,900,149.3C960,171,1020,213,1080,197.3C1140,181,1200,107,1260,85.3C1320,64,1380,96,1410,112L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+
+    <section id="projects">
+      <div class="container p-lg-5">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div id="d-medium" class="row text-white reveal-bottom">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="projects/project-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="projects/project-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="projects/project-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="projects/project-4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h5>Four slide label</h5>
+                  <p>Some representative placeholder content for the Four slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div id="d-large" class="row row-cols-1 row-cols-lg-3 g-4 justify-content-center reveal-bottom">
+          <div class="col">
+            <div class="card border-0">
+              <img src="projects/project-1.jpg" class="card-img-top" alt="Project">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img src="projects/project-2.jpg" class="card-img-top" alt="Project">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img src="projects/project-3.jpg" class="card-img-top" alt="Project">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img src="projects/project-4.jpg" class="card-img-top" alt="Project">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="dark-project">
+        <path fill="#fafafa" fill-opacity="1" d="M0,160L40,160C80,160,160,160,240,149.3C320,139,400,117,480,138.7C560,160,640,224,720,208C800,192,880,96,960,96C1040,96,1120,192,1200,202.7C1280,213,1360,139,1400,101.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center pb-5 reveal-bottom">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i> Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center p-4">
+      <p style="text-decoration: none; color: wheat;">
+        <a href="https://www.facebook.com/ledwin.wotulo.pfg" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/ledwin_ezkiel_wotulo" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://github.com/ledwinEzkiel" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://twitter.com/EzkielLedwin" target="_blank">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="https://wa.me/+6282293117590" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </p>
+      <p class="mb-0">Copyright &copy; 2023 Ledwin Ezkiel Wotulo</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
