@@ -45,6 +45,7 @@ nav {
 #projects .container  #d-medium p {
   color: white;
 }
+#projects .container #d-large .col .card:hover {background-color: #baf2ff; box-shadow: var(--bs-box-shadow);}
 #contact {
   background: #fafafa;
 }
@@ -70,6 +71,7 @@ nav {
 .dark #projects .row .col .card {
   background: var(--bs-border-color)!important;
 }
+.dark #projects .container #d-large .col .card:hover {background-color: #313131 !important; box-shadow: var(--bs-box-shadow) !important;}
 .dark #contact{
   background-color: var(--bs-secondary-bg);
 }
