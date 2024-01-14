@@ -76,7 +76,7 @@ nav {
   background-color: var(--bs-secondary-bg);
 }
 .dark footer {
-  background: var(--bs-daek-bg-subtle);
+  background: var(--bs-dark-bg-subtle);
 }
 footer {
   background: #20caf2;
