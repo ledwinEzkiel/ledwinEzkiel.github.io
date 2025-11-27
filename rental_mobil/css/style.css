@@ -1,5 +1,9 @@
 /********** Template CSS **********/
 
+.carousel-item img {
+    filter: hue-rotate(180deg) blur(10px);
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -392,7 +396,7 @@
 
 /*** Appoinment ***/
 .appoinment {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-2.jpg) left center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-4.png) left center no-repeat;
     background-size: cover;
 }
 
