@@ -561,6 +561,10 @@
     box-shadow: none;
 }
 
+.footer img {
+    filter: blur(2px);
+}
+
 .copyright {
     background: #222222;
 }
